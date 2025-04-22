@@ -1,4 +1,4 @@
-# Tuma Car
+# Tumai Car
 
 Tuma Car is a web-based application for managing and exploring car details. The project utilizes CSS, JavaScript, and HTML to deliver a responsive and interactive user experience.
 
