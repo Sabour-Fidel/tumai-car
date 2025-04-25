@@ -2,9 +2,9 @@ $(document).ready(function(){
 	"use strict";
     
         /*==================================
-* Author        : "ThemeSine"
-* Template Name : CarVilla HTML Template
-* Version       : 1.0
+* Author        : "Ledif"
+* Template Name : Tunai car HTML Template
+* Version       : 0.0
 ==================================== */
 
 
