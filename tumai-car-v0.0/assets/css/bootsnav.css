@@ -1001,7 +1001,6 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     
     nav.navbar.bootsnav .navbar-toggle {
         display: inline-block;
-        float: left;
         margin-right: -200px;
         margin-top: 10px;
     }
@@ -1254,7 +1253,6 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     
     nav.bootsnav.navbar-full .navbar-toggle {
         display: inline-block;
-        float: right;
         margin-right: 0;
         margin-top: 10px;
     }
