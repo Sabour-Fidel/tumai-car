@@ -1,11 +1,6 @@
 /* ==============================================================
 
-Template name : Bootsnav - Multi Purpose Header
-Categorie : Bootstrap Menu in CSS
-Author : adamnurdin01
-Version : v.1.2
-Created : 2016-06-02
-Last update : 2016-10-19
+
 
 ============================================================== */
 
@@ -209,7 +204,6 @@ li.close-full-menu{
 /* Atribute Navigation
 =================================*/
 .attr-nav{
-    float: right;
     display: inline-block;
     margin-left: 13px;
     margin-right: -15px;
@@ -223,7 +217,7 @@ li.close-full-menu{
 }
 
 .attr-nav > ul > li{
-    float: left;
+    /* Removed float: left; to avoid conflict with display: inline-block */
     display: block;
 }
 
@@ -272,7 +266,7 @@ ul.cart-list > li{
 ul.cart-list > li > a.photo{
     padding: 0 !important;
     margin-right: 15px;
-    float: left;
+    /* Removed float: left; to avoid conflict with display: inline-block */
     display: block;
     width: 50px;
     height: 50px;
@@ -386,7 +380,7 @@ body.on-side{
 }
 
 .side .close-side{
-    float: right;
+    /* Removed float: right; to avoid conflict with display: inline-block */
     color: #fff;
     position: relative;
     z-index: 2;
@@ -436,7 +430,7 @@ nav.navbar.bootsnav .share ul{
 }
 
 nav.navbar.bootsnav .share ul > li{
-    float: left;
+    /* Removed float: left; to avoid conflict with display: inline-block */
     display: block;
     margin-right: 5px;
 }
@@ -572,7 +566,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu li.dropdown > a.dropdown-toggle:before{
         font-family: 'FontAwesome';
-        float: right;
+        /* Removed float: right; to avoid conflict with display: inline-block */
         content: "\f105";
         margin-top: 0;
     }

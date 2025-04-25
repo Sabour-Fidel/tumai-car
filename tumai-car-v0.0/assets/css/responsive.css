@@ -73,7 +73,7 @@
 }/*max-width:480px*/
 
 @media screen and (max-width: 440px){
-	.welcome-hero-txt h2,{font-size: 24px;line-height: 1.5;}
+	.welcome-hero-txt h2 {font-size: 24px;line-height: 1.5;}
 	
 }/*max-width:400px*/
 
